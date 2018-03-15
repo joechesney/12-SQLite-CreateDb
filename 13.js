@@ -36,17 +36,22 @@ const makeTable = () =>{
       );
     });
     db.all("SELECT * FROM employees", (err, allRows) => {
-      errorHandler(err);
       allRows.forEach(each => {
-        console.log(each.id, each.firstName, each.lastName);
+        console.log(each);
       });
     });
-    
     db.all("SELECT employees.jobTitle FROM employees", (err, allRows) => {
       allRows.forEach(each => {
         console.log(each.jobTitle);
       });
     });
+    db.all("SELECT * FROM employees", (err, allRows) => {
+      errorHandler(err);
+      allRows.forEach(each => {
+        console.log(each.firstName, each.lastName, each.address);
+      });
+    });
+    
   });
   
 }

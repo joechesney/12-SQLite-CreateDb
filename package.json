@@ -1,0 +1,23 @@
+{
+  "name": "12-SQLite-CreateDb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joechesney/13-SQLite-CreateDb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joechesney/13-SQLite-CreateDb/issues"
+  },
+  "homepage": "https://github.com/joechesney/13-SQLite-CreateDb#readme",
+  "devDependencies": {
+    "sqlite3": "^3.1.13"
+  }
+}
